@@ -35,7 +35,7 @@ export default class Player extends Component{
                     <div className="card">
                         <img src={process.env.PUBLIC_URL+player.img}/>
                         <h3>{player.name}</h3>
-                        <p className="title"></p>
+                        <p className="title">{player.club}</p>
                         <p><button>Detail</button></p>
                     </div>
                 </div>
