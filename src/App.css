@@ -43,7 +43,7 @@
   float: left;
 }
 .active{
-  background-color: goldenrod;
+  color: goldenrod;
 }
 .navigation a {
   display: block;
