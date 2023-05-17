@@ -9,7 +9,12 @@ export class Main extends Component{
         };
     }
     render(){
-        return <PlayersPresentation players={this.state.players}/>
+        return(
+            <div>
+                {/* <PlayersPresentation players={Players}/> */}
+            <PlayersPresentation players={this.state.players}/>
+            </div>
+        )
     }
 }
 export default Main
