@@ -27,6 +27,7 @@ export const Players = [
         {
             id:6,
 name:"Haaland",
-img:'/images/haaland.jpg'
+img:'/images/haaland.jpg',
+club: 'MC',
         },
 ];
