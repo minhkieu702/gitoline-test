@@ -1,32 +1,8 @@
-export const Players = [
-    {
-        id:1, 
-        name: 'Kante', 
-        club: 'Chelsea', 
-        img:'/images/kante.jpg'},
-    {
-        id:2, 
-        name: 'Ronaldo', 
-        club: 'MU', 
-        img:'/images/cr.jpg'},
-    {
-        id:3, 
-        name: 'Messi', 
-        club: 'PSG', 
-        img:'/images/messi.jpg'},
-    {
-        id:4, 
-        name: 'Mbappe', 
-        club: 'PSG', 
-        img:'/images/m.jpg'},
-    {
-        id:5, 
-        name: 'Kane', 
-        club: 'Totteham', 
-        img:'/images/kane.jpg'},
-        {
-            id:6,
-name:"Haaland",
-img:'/images/haaland.jpg'
-        },
-];
+export const Players =[
+    {id: 1, name: 'Cristiano Ronaldo', club: 'Manchester United', img:'assets/images/cr.jpg'},
+    {id: 2, name: 'Kante', club: 'Chelsea', img:'assets/images/kante.jpg'},
+    {id: 2, name: 'Messi', club: 'PSG', img:'assets/images/messi.jpg'},
+    {id: 2, name: 'Neymar', club: 'PSG',img:'assets/images/neymar.jpg'},
+    {id: 2, name: 'Kane', club: 'Tottemham',img:'assets/images/kane.jpg' },
+    {id: 2, name: 'Haaland', club: 'Manchester City', img:'assets/images/haaland.jpg'}
+  ];
