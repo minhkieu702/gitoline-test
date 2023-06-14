@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from "react";
-import { players } from "./ListOfPlayers";
+import { data } from "./ListOfPlayers";
 export default function PlayersPresentation() {
     const [player,setPlayer] = useState([])
     return(
         <div className="container">
-            {players.map((player)=>(
+            {data.map((player)=>(
                 <div className="column">
                     <div className="card">
                         <img src={player.img}></img>

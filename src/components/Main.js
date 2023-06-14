@@ -1,10 +1,10 @@
 import React, {Component} from "react";
-import { players } from "./ListOfPlayers";
+import { data } from "./ListOfPlayers";
 import PlayersPresentation from "./PlayersPresentation";
 export class Main extends Component{
     constructor(){
         super();
-        this.state = {players: players};
+        this.state = {players: data};
     }
     render(){
         return <PlayersPresentation players={this.state.players}></PlayersPresentation>
