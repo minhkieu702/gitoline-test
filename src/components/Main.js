@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { data } from "./ListOfPlayers";
+import { data } from "./share/ListOfPlayers";
 import PlayersPresentation from "./PlayersPresentation";
 export class Main extends Component{
     constructor(){

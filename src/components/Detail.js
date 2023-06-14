@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { data } from '../Share/ListOfPlayers'
+import {data} from "../components/share/ListOfPlayers"
 
 const Detail = () => {
     const userName = useParams();

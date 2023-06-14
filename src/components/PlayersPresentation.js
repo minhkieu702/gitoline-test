@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { data } from "./ListOfPlayers";
+import { data } from "./share/ListOfPlayers";
 export default function PlayersPresentation() {
     const [player,setPlayer] = useState([])
     return(
